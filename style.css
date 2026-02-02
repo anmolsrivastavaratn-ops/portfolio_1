@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: #0f172a;
+    color: #fbfdfd;
+    font-family: 'Times New Roman', Times, serif
+}
+#name{
+    margin-right: 280px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 3rem;
+    border: 1px solid beige;
+    padding: 1rem;
+    font-family: cursive;
+}
+.para{
+    margin: 2rem;
+    cursor: pointer;
+}
+.para:hover{
+    text-decoration: underline;
+}
+.nav input{
+    margin-top: .2rem;
+    width: 500px;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    background: transparent;
+    border: none;
+    box-shadow: -1px -10px 25px rgba(76, 158, 209, 1);
+}
+.false_header{
+    height: 10%;
+    width: 100%;
+}
+.nav{
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 1.5%;
+}
+.content{
+    margin-top: 6rem;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    height: 90%;
+    width: 30%;
+    margin-right: 7rem;
+}
+.text h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+.image{
+    height: 90%;
+    width: 30%;
+}
+#about_me{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text button{
+    margin-top: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 4rem;
+    box-shadow: -1px -10px 25px rgba(76, 158, 209, 1);
+    background: transparent;
+    color: white;
+    border: none;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10rem;
+    /* center align */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* glow effect */
+    box-shadow:
+        0 0 30px rgba(58, 169, 255, 0.6),
+        0 0 60px rgba(58, 169, 255, 0.3);
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.glow-divider {
+    margin-top: 10rem;
+    margin-left: 16rem;
+    width: 70%;
+    height: 2px;
+    background: linear-gradient(
+    90deg,
+    transparent,
+    #3aa9ff,
+    transparent
+    );
+    box-shadow: 0 0 15px rgba(58, 169, 255, 0.8);
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-weight: bolder;
+    font-size: 4rem;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.project{
+    padding: 0.3rem;
+    display: flex;
+    width: 1050px;
+    height: auto;
+    margin-left: 15rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+#addproject{
+    cursor: pointer;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    box-shadow: -1px -10px 25px rgba(76, 158, 209, 1);
+    background: transparent;
+    color: white;
+    border: none;
+    margin-left: 43rem;
+    margin-bottom: 3rem;
+}
+
+.project_card img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.project_card h3{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.project_card a{
+    text-align: center;
+    padding: 6px;
+    background: #3aa9ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.glow-divider2{
+    margin-top: 1rem;
+    margin-left: 16rem;
+    width: 70%;
+    height: 2px;
+    background: linear-gradient(
+    90deg,
+    transparent,
+    #3aa9ff,
+    transparent
+    );
+    box-shadow: 0 0 15px rgba(58, 169, 255, 0.8);
+}
+
+#addskillbtn{
+    cursor: pointer;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    box-shadow: -1px -10px 25px rgba(76, 158, 209, 1);
+    background: transparent;
+    color: white;
+    border: none;
+    margin-left: 43rem;
+    margin-bottom: 3rem;
+}
+.skillbox{
+      padding:10px;
+      margin:5px;
+      width:auto;
+      height: auto;
+      margin-left: 16rem;
+      margin-top: 4rem;
+      font-size: xx-large;
+      font-weight: bolder;
+}
+.glow-divider3{
+    margin-top: 1rem;
+    margin-left: 16rem;
+    width: 70%;
+    height: 2px;
+    background: linear-gradient(
+    90deg,
+    transparent,
+    #3aa9ff,
+    transparent
+    );
+    box-shadow: 0 0 15px rgba(58, 169, 255, 0.8);
+}
+
+.contact button{
+    cursor: pointer;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    box-shadow: -1px -10px 25px rgba(76, 158, 209, 1);
+    background: transparent;
+    color: white;
+    border: none;
+    margin-left: 42.5rem;
+    margin-bottom: 3rem;
+}
